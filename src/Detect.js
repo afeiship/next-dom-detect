@@ -1,5 +1,8 @@
 (function (nx, global) {
 
+  if (typeof(nx.$) == 'undefined') {
+    nx.$ = {};
+  }
   var navigator = global.navigator;
 
   function detect(ua, platform) {
