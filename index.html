@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Next-dom-detect by afeiship</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Next-dom-detect</h1>
+      <h2 class="project-tagline">Dom detect based on toolkit.</h2>
+      <a href="https://github.com/afeiship/next-dom-detect" class="btn">View on GitHub</a>
+      <a href="https://github.com/afeiship/next-dom-detect/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/afeiship/next-dom-detect/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="next-dom-detect" class="anchor" href="#next-dom-detect" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>next-dom-detect</h1>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>description:</h2>
+
+<ul>
+<li>Dom event module based on next toolkit.</li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>usage:</h2>
+
+<ul>
+<li>general device type</li>
+</ul>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">phone</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">tablet</span></pre></div>
+
+<ul>
+<li>specific OS</li>
+</ul>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">ios</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">android</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">webos</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">blackberry</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">bb10</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">rimtabletos</span></pre></div>
+
+<ul>
+<li>specific device type</li>
+</ul>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">iphone</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">ipad</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">ipod</span> <span class="pl-c">// [v1.1]</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">touchpad</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">kindle</span></pre></div>
+
+<ul>
+<li>specific browser</li>
+</ul>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-smi">chrome</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-smi">firefox</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-smi">safari</span> <span class="pl-c">// [v1.1]</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-smi">webview</span> <span class="pl-c">// (iOS) [v1.1]</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-smi">silk</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-smi">playbook</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-smi">ie</span> <span class="pl-c">// [v1.1]</span></pre></div>
+
+<ul>
+<li>Additionally, version information is available as well.</li>
+<li>Here's what's returned for an iPhone running iOS 6.1.</li>
+</ul>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-k">!!</span><span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">phone</span>         <span class="pl-c">// =&gt; true</span>
+<span class="pl-k">!!</span><span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">iphone</span>        <span class="pl-c">// =&gt; true</span>
+<span class="pl-k">!!</span><span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-smi">ios</span>           <span class="pl-c">// =&gt; true</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">os</span>.<span class="pl-c1">version</span>       <span class="pl-c">// =&gt; "6.1"</span>
+<span class="pl-smi">nx</span>.<span class="pl-smi">$</span>.<span class="pl-smi">browser</span>.<span class="pl-c1">version</span>  <span class="pl-c">// =&gt; "536.26"</span></pre></div>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/afeiship/next-dom-detect">Next-dom-detect</a> is maintained by <a href="https://github.com/afeiship">afeiship</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
