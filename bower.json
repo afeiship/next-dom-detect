@@ -5,7 +5,7 @@
     "afei"
   ],
   "description": "Dom event module based on next toolkit.",
-  "main": "dist/Detect.js",
+  "main": "dist/next-dom-detect.js",
   "moduleType": [
     "node"
   ],
