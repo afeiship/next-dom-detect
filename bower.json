@@ -1,0 +1,30 @@
+{
+  "name": "next-dom-detect",
+  "homepage": "https://github.com/afeiship/next-dom-detect",
+  "authors": [
+    "afei"
+  ],
+  "description": "Dom event module based on next toolkit.",
+  "main": "dist/Detect.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "detect",
+    "next",
+    "toolkit"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "src",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "next-js-core": "*",
+    "next-dom-core": "*"
+  }
+}
