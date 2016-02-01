@@ -1,4 +1,4 @@
-#next-ui-template
+#next-dom-detect
 
 ##description:
 + Dom event module based on next toolkit.
@@ -6,44 +6,44 @@
 ##usage:
 + general device type
 ```javascript
-$.os.phone
-$.os.tablet
+nx.$.os.phone
+nx.$.os.tablet
 ```
 
 + specific OS
 ```javascript
-$.os.ios
-$.os.android
-$.os.webos
-$.os.blackberry
-$.os.bb10
-$.os.rimtabletos
+nx.$.os.ios
+nx.$.os.android
+nx.$.os.webos
+nx.$.os.blackberry
+nx.$.os.bb10
+nx.$.os.rimtabletos
 ```
 
 + specific device type
 ```javascript
-$.os.iphone
-$.os.ipad
-$.os.ipod // [v1.1]
-$.os.touchpad
-$.os.kindle
+nx.$.os.iphone
+nx.$.os.ipad
+nx.$.os.ipod // [v1.1]
+nx.$.os.touchpad
+nx.$.os.kindle
 ```
 + specific browser
 ```javascript
-$.browser.chrome
-$.browser.firefox
-$.browser.safari // [v1.1]
-$.browser.webview // (iOS) [v1.1]
-$.browser.silk
-$.browser.playbook
-$.browser.ie // [v1.1]
+nx.$.browser.chrome
+nx.$.browser.firefox
+nx.$.browser.safari // [v1.1]
+nx.$.browser.webview // (iOS) [v1.1]
+nx.$.browser.silk
+nx.$.browser.playbook
+nx.$.browser.ie // [v1.1]
 ```
 + Additionally, version information is available as well.
 + Here's what's returned for an iPhone running iOS 6.1.
 ```javascript
-!!$.os.phone         // => true
-!!$.os.iphone        // => true
-!!$.os.ios           // => true
-$.os.version       // => "6.1"
-$.browser.version  // => "536.26"
+!!nx.$.os.phone         // => true
+!!nx.$.os.iphone        // => true
+!!nx.$.os.ios           // => true
+nx.$.os.version       // => "6.1"
+nx.$.browser.version  // => "536.26"
 ```
